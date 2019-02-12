@@ -9,7 +9,11 @@
   <meta name="author" content="Kevin L">
   <meta name="email" content="bikekevin5@gmail.com">
 
+
+  <title>DOMINIC - a San Francisco theatre production</title>
+<!--
   <title>DOMINIC - a Queer Asian theatre production</title>
+-->
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,6 +49,18 @@
      width:100%;
      position:absolute;
    }
+
+   .svg-bg1{
+     background-color: #000000;
+     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+     background-size: cover;
+   }
+
+   .svg-bg3{
+     background-color: #9d3127;
+     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%23f0ce1f' fill-opacity='0.15'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+   }
+
 
  </style>
 
@@ -112,7 +128,14 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
+
+<!--
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" ><rect fill="#913535" width="100%" height="100%"/></svg>
+
+    -->
+
+        <img class="svg-bg1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"></img>
+
         <div class="container">
           <div class="carousel-caption text-left">
             <h1><ion-icon name="bulb"></ion-icon>DOMINIC</h1>
@@ -136,8 +159,10 @@
           </div>
         </div>
       </div>
+
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" ><rect fill="#bbbbbb" width="100%" height="100%"/></svg>
+        <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" ><rect fill="#bbbbbb" width="100%" height="100%"/></svg>-->
+        <img class="svg-bg3" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"></img>
         <div class="container">
           <div class="carousel-caption">
             <h1>Playing May 2019</h1>
@@ -147,6 +172,7 @@
           </div>
         </div>
       </div>
+
       <div class="carousel-item">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" ><rect fill="#e9eec9" width="100%" height="100%"/></svg>
         <div class="container">
@@ -154,10 +180,10 @@
             <h1>Theatre for Confuscian Queers </h1>
             <p>Elevating the stories of the San Francisco Bay Area's Queer Asian community through theatre. Find out more about OUR MISSION at GAPA Theatre and meet some of our SF API LGBTQ partners.</p>
             <p><a class="btn btn-lg btn-secondary js-scroll-trigger" href="#partners" role="button">Partner with us</a></p>
-
           </div>
         </div>
       </div>
+
     </div>
     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -184,7 +210,7 @@
     </div>
   </section>
 
-  <section id="location">
+  <section id="location" class="bg-light">
     <div class="container">
 
       <div class="row featurette">
@@ -233,10 +259,10 @@
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"/><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg>
-          <h2>Kevin L</h2>
+          <h2>Kevin</h2>
           <h3><span class="text-muted">Author</span></h3>
           <p>Kevin contributes to online media culture magazines and writing communities as well as types code for this site. His favorite text editor is atom.io</p>
-          <p><a class="btn btn-outline-danger" href="https://twitter.com/bikekevin5" role="button"><ion-icon name="logo-twitter"></ion-icon></a> <a class="btn btn-outline-primary" href="https://github.com/bikekevin5" role="button"><ion-icon name="logo-github"></ion-icon></a> <a class="btn btn-outline-secondary" href="https://bikekevin5.wordpress.com" role="button"><ion-icon name="logo-wordpress"></ion-icon></a> <a class="btn btn-outline-dark" href="https://the-artifice.com/author/kevindeanlim/" role="button"><ion-icon name="paper"></ion-icon></a></p>
+          <p><a class="btn btn-outline-danger" href="https://twitter.com/bikekevin5" role="button"><ion-icon name="logo-twitter"></ion-icon></a> <a class="btn btn-outline-primary" href="https://github.com/bikekevin5" role="button"><ion-icon name="logo-github"></ion-icon></a> <a class="btn btn-outline-secondary" href="https://bikekevin5.wordpress.com" role="button"><ion-icon name="logo-wordpress"></ion-icon></a> <a class="btn btn-outline-dark" href="https://www.patreon.com/bikekevin5" role="button"><ion-icon name="journal"></ion-icon></a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"/><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg>
